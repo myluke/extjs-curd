@@ -1,7 +1,7 @@
 <?php
 
-mysql_pconnect(MOPAAS_MYSQL14603_HOSTNAME,MOPAAS_MYSQL14603_USERNAME, MOPAAS_MYSQL14603_PASSWORD) or die("Could not connect");
-mysql_select_db(MOPAAS_MYSQL14603_NAME) or die("Could not select database");
+mysql_pconnect('10.4.12.46','uQiWsyHIqIsKh', 'pqeDBUTaX5DNG') or die("Could not connect");
+mysql_select_db('d400ce84a4b994ea982d199337b4c8b2b') or die("Could not select database");
 
 $action				= isset($_GET['action'])?$_GET['action']:'';
 $id					= isset($_POST['id'])?$_POST['id']:'';
