@@ -1,7 +1,7 @@
 <?php
 
-mysql_pconnect("dbhost", "dbuser", "dbpass") or die("Could not connect");
-mysql_select_db("dbname") or die("Could not select database");
+mysql_pconnect(dbhost, dbuser, dbpass) or die("Could not connect");
+mysql_select_db(dbname) or die("Could not select database");
 
 $action				= isset($_GET['action'])?$_GET['action']:'';
 $id					= isset($_POST['id'])?$_POST['id']:'';
